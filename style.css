@@ -101,7 +101,7 @@ p
     justify-content: center;
    
 }
-img:hover 
+.container img:hover 
 {
     opacity:80%;
 }
@@ -117,6 +117,7 @@ img:hover
 }
 
 /*------Price list-----*/
+
 .price-list-container {
     max-width: 800px;
     margin: 50px auto;
@@ -170,4 +171,35 @@ img:hover
     padding-left: 25px;
     margin-bottom: 10px;
     color: #555;
+}
+
+.btn btn-primary
+{ align:center;
+}
+
+/*-----events-----*/
+div h5
+{
+    position: relative;
+    color: rgb(12, 7, 83);
+}
+
+.event-content {
+    position: relative;
+    z-index: 2;
+}
+
+
+/*-----gallery-----*/
+
+#photos
+{
+    column-count: 3;
+}
+
+@media screen and (max-width: 800px)
+{
+    #photos{
+        column-count: 2;
+    }
 }
