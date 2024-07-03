@@ -5,36 +5,44 @@
     padding: 0 !important;
 }
 
-
 /*----Image settings-----*/
 
 .weights 
 {
-    max-width 200px;
-    max-height: 200px;
+    max-height: 300px;
+    max-width: 300px;
     border-radius: 25px;
-    background: #be0e0e;
+    background: #ffdfdf;
     padding: 5px;
-    width: 200px;
-    height: 170px;
 }
-.cardio 
+
+img:hover 
 {
-    max-width 200px;
-    max-height: 200px;
-    border-radius: 25px;
-    background: #be0e0e;
-    padding: 5px;
-    width: 200px;
-    height: 170px;
+    opacity:80%;
 }
-.yoga 
+
+.section 
 {
-    max-width 200px;
-    max-height: 200px;
-    border-radius: 25px;
-    background: #be0e0e;
-    padding: 5px;
-    width: 200px;
-    height: 170px;
+    height: 100vh;
+}
+/*-------footer------*/
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
 }
