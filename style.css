@@ -1,13 +1,79 @@
-/*----Navbar-------*/
-.navbar
+body
 {
-    background-image: linear-gradient(to right, hsla(0, 93%, 22%, 0.993),#eb3535);
-    padding: 0 !important;
+    font-family: sans-serif;
 }
 
-/*----Image settings-----*/
 
+/*----Navbar-------*/
+.nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, hsla(0, 100%, 94%, 0.993),#fdf8f8);
+    padding: 0 !important;
+}
+.navbar-brand
+{    
+height: 40px;
+padding-left: 20px;
+
+}
+.nav-bar-nav li 
+{
+   padding:0 10px;
+}
+.navbar-brand
+{
+    color:#1d1c1c;
+    font-weight: 600;
+}
+.navbar li a
+{
+    color:#1d1c1c;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+.fa-bars
+{
+    color:#1d1c1c;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline:none !important;
+}
+/*----Background image-----*/
+
+    body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/043/170/977/non_2x/ai-generated-simple-tropical-beach-sand-with-colorful-beach-huts-in-beach-sea-and-seawater-background-free-photo.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  
+}
+
+
+/*----cover text----*/
+
+#cover-text
+{
+    margin-left:30px;
+    margin-top: 10px;
+    text-align:center;
+    color:#000000;
+}
+
+/*----Fitness Image settings-----*/
+.container
+{
+    margin: 40px; 
+}
 .weights 
+
 {
     max-height: 300px;
     max-width: 300px;
@@ -15,7 +81,26 @@
     background: #ffdfdf;
     padding: 5px;
 }
-
+/*----Fitness text settings-----*/
+div h1
+{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight:600;
+    text-align:center;
+}
+p
+{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight:600;
+    text-align: center;
+    justify-content: center;
+   
+}
 img:hover 
 {
     opacity:80%;
@@ -26,23 +111,63 @@ img:hover
     height: 100vh;
 }
 /*-------footer------*/
-
-footer{
-    height: 150px;
+#footer
+{
+    position:bottom;
 }
 
-.social-networks{
+/*------Price list-----*/
+.price-list-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
     text-align: center;
-
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-.social-networks li{
-    display: inline;
+.price-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #777777;
+.price-item {
+    flex: 1 1 45%;
+    background-color: #e8e8e8;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.price-item h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.price-item .price {
+    font-size: 1.2em;
+    color: #ff6e6e;
+    margin-bottom: 15px;
+}
+
+.price-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.price-item ul li {
+    background: url('checkmark.png') no-repeat left center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    color: #555;
 }
