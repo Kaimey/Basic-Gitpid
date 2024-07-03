@@ -1,6 +1,40 @@
-.weights-image 
+/*----Navbar-------*/
+.navbar
 {
-    max-width 400px;
-    max-height: 400px;
-    
+    background-image: linear-gradient(to right, hsla(0, 93%, 22%, 0.993),#eb3535);
+    padding: 0 !important;
+}
+
+
+/*----Image settings-----*/
+
+.weights 
+{
+    max-width 200px;
+    max-height: 200px;
+    border-radius: 25px;
+    background: #be0e0e;
+    padding: 5px;
+    width: 200px;
+    height: 170px;
+}
+.cardio 
+{
+    max-width 200px;
+    max-height: 200px;
+    border-radius: 25px;
+    background: #be0e0e;
+    padding: 5px;
+    width: 200px;
+    height: 170px;
+}
+.yoga 
+{
+    max-width 200px;
+    max-height: 200px;
+    border-radius: 25px;
+    background: #be0e0e;
+    padding: 5px;
+    width: 200px;
+    height: 170px;
 }
