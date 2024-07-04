@@ -25,7 +25,7 @@ This project is the culminated skills learned via the code institute tutorial an
 ### Starting point
 My initial plan is for a simple design and to test my skills as i progress through the project.
 
-![alt text](image.png)
+![Design](https://github.com/Kaimey/Basic-Gitpid/blob/main/Simple%20Design.PNG)
 
 Initially i started out with a basic layout using bootstraps Navbar features found on [a link to bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
 
@@ -67,5 +67,7 @@ Eventually after much investigation it appears you need to enable
 *Bootstrap working correctly
 *issues with div spacing on the main sections - Works correctly on all devices except full screen PC
 
+#####Conclusion
+As this is my first attempt at creating a website along using bootstrap and css i beleive i have managed to complete the task at hand, although there would be some changes to elavate the design that hopefully over the next few months i will be able to implement to see how far i have progressed.
 
 
