@@ -52,7 +52,7 @@ Using previous projects i had worked on such as Love Running in which i created 
 *Tested all pages in other device formats and we're working correctly.
 *Labeled all sections that we're completed on both CSS and html.
 
-####Issues
+###Issues
 *I decided to make the navbar also accessible for mobile device by enabling the function. This took a large sum of time and trial and error as it was not working after several attempts.
 Eventually after much investigation it appears you need to enable 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> to be able to activate this option in the bootstrap element. This code was put at the bottom of the index.html after the final </body> option.
@@ -61,13 +61,13 @@ Eventually after much investigation it appears you need to enable
 * Tested in WC3 Markup validation and multiple errors missed.
 * Deleted said errors which were not causing issues with the code but we're unnecesary and irrelevant such as align:center; on the btn function. 
 
-####Performance
+###Performance
 *tested performance and multiple errors showing <div> not closed and errors with bootstrap attachment.
 *Fixed errors showing <div> issues and no longer showing as failed.
 *Bootstrap working correctly
 *issues with div spacing on the main sections - Works correctly on all devices except full screen PC
 
-#####Conclusion
+####Conclusion
 As this is my first attempt at creating a website along using bootstrap and css i beleive i have managed to complete the task at hand, although there would be some changes to elavate the design that hopefully over the next few months i will be able to implement to see how far i have progressed.
 
 With more skill i would like to be able to edit the main page on full devices to be more consistent with the smaller devices as it appears more appealing on those.
