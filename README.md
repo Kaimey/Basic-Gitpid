@@ -70,4 +70,8 @@ Eventually after much investigation it appears you need to enable
 #####Conclusion
 As this is my first attempt at creating a website along using bootstrap and css i beleive i have managed to complete the task at hand, although there would be some changes to elavate the design that hopefully over the next few months i will be able to implement to see how far i have progressed.
 
+With more skill i would like to be able to edit the main page on full devices to be more consistent with the smaller devices as it appears more appealing on those.
+
+Final mobile View
+![alt text](https://github.com/Kaimey/Basic-Gitpid/blob/main/images/Mobile%20View.PNG)
 

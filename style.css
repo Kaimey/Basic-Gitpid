@@ -124,7 +124,7 @@ div p
    
 }
 
-.col p {
+.col-md-6 p {
     border: 2px solid black;
     padding: 10px;
     box-sizing: border-box;
