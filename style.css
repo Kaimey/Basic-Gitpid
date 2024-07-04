@@ -93,7 +93,7 @@ div h1
     text-align:center;
 }
 
-h2
+div h2
 {
     font-family: Oswald;
     text-transform: uppercase;
@@ -103,7 +103,7 @@ h2
     text-align:center;
 }
 
-h5
+div h5
 {
     font-family: Oswald;
     text-transform: uppercase;
@@ -113,7 +113,7 @@ h5
     text-align:center;
 }
 
-p
+div p
 {
     font-family: sans-serif;
     letter-spacing: 1px;
@@ -124,6 +124,13 @@ p
    
 }
 
+.col p {
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffdfdf;
+    border-radius: 25px;
+  }
 .container img:hover 
 {
     opacity:80%;
@@ -132,6 +139,7 @@ p
 .container
 {
     Display:inline;
+    position:relative;
 }
 
 .section 
@@ -142,7 +150,7 @@ p
 /*-------footer------*/
 #footer
 {
-    position:bottom;
+    position:absolute;
 }
 
 /*------Price list-----*/
