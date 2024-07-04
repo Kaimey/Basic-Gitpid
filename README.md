@@ -65,5 +65,7 @@ Eventually after much investigation it appears you need to enable
 *tested performance and multiple errors showing <div> not closed and errors with bootstrap attachment.
 *Fixed errors showing <div> issues and no longer showing as failed.
 *Bootstrap working correctly
+*issues with div spacing on the main sections - Works correctly on all devices except full screen PC
+
 
 
