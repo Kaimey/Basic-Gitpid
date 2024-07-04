@@ -58,5 +58,12 @@ Eventually after much investigation it appears you need to enable
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> to be able to activate this option in the bootstrap element. This code was put at the bottom of the index.html after the final </body> option.
 *original project attempt was dropped after failing to link Bootstrap correctly and once linkned mid project caused substancial errors.
 * Original events section was based on a previous project layout and failed to look correct in this setting, Took substancial time to create a basic layout that worked correctly.
+* Tested in WC3 Markup validation and multiple errors missed.
+* Deleted said errors which were not causing issues with the code but we're unnecesary and irrelevant such as align:center; on the btn function. 
+
+####Performance
+*tested performance and multiple errors showing <div> not closed and errors with bootstrap attachment.
+*Fixed errors showing <div> issues and no longer showing as failed.
+*Bootstrap working correctly
 
 
